@@ -1,3 +1,8 @@
+"""
+This Python script Copies files from one folder to another.
+
+"""
+
 import os
 import re
 
