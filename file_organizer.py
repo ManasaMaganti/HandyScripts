@@ -47,7 +47,7 @@ class Organize:
                     os.rename(path + file, path + y + "\\" + file)
 
 
-o = Organize("C:\\Users\\vvaru\\Desktop\\Test folder\\")
+o = Organize(os.path.dirname(os.path.realpath(__file__)) + "\\Test folder\\")
 
 o.get_names()
 o.arrange()
