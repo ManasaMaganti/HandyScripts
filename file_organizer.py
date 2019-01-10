@@ -2,7 +2,6 @@ import os
 
 
 class Organize:
-    # consider = [".jpg", ".png", ".bmp", ".py", ".lnk", ".txt", ".rtf"]
     refer = {
         "Images": [".jpg", ".png", ".bmp", ".jpeg"],
         "Python Files": [".py", ".pyw"],
