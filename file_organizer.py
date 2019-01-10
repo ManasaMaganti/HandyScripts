@@ -44,7 +44,7 @@ class Organize:
         for y in fin.keys():
             if len(fin[y]) > 0:
                 for file in fin[y]:
-                    os.rename(path+file, path + y + "\\" + file)
+                    os.rename(path + file, path + y + "\\" + file)
 
 
 o = Organize("C:\\Users\\vvaru\\Desktop\\Test folder\\")
