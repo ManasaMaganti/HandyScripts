@@ -6,7 +6,7 @@ class Organize:
         "Images": [".jpg", ".png", ".bmp", ".jpeg"],
         "Python Files": [".py", ".pyw"],
         "Documents": [".txt", ".rtf", ".docx", ".doc"],
-        "Compressed": ["."]
+        "Compressed": [".rar"]
     }
 
     assign = {
